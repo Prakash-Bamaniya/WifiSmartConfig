@@ -1,0 +1,166 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WifiSmartConfig" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorBlueStart</item>
+        <item name="colorPrimaryVariant">@color/colorBlueStart</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.WifiSmartConfig.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WifiSmartConfig.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WifiSmartConfig.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--change alert dialog button color-->
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/teal_700</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/teal_700</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/teal_700</item>
+    </style>
+
+
+    <!--for bottomSheet design-->
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <style name="BaseBottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <!-- <item name="android:background">@drawable/bg_bottomsheet</item>-->
+        <item name="behavior_peekHeight">800dp</item>
+    </style>
+
+    <style name="StyleIcon">
+        <item name="android:padding">@dimen/_8sdp</item>
+    </style>
+
+    <style name="TextView" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/be_vietnam_bold</item>
+        <item name="android:textCursorDrawable">@drawable/drawable_cursor</item>
+    </style>
+    <!--    TextView Fonts-->
+    <style name="TextView.Bold">
+        <item name="fontFamily">@font/be_vietnam_bold</item>
+    </style>
+
+    <style name="TextView.Regular">
+        <item name="fontFamily">@font/be_vietnam_regular</item>
+    </style>
+
+    <style name="TextView.Thin">
+        <item name="fontFamily">@font/be_vietnam_thin</item>
+    </style>
+    <!--    TextView Fonts-->
+
+    <!--    TextView Colors-->
+    <style name="TextView.Bold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextView.Bold.MateBlack">
+        <item name="android:textColor">@color/colorMateBlack</item>
+    </style>
+
+    <style name="TextView.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Bold.Yellow">
+        <item name="android:textColor">@color/colorHeaderYellow</item>
+    </style>
+
+    <style name="TextView.Regular.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextView.Regular.MateBlack">
+        <item name="android:textColor">@color/colorMateBlack</item>
+    </style>
+
+    <style name="TextView.Regular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView.Regular.Yellow">
+        <item name="android:textColor">@color/colorHeaderYellow</item>
+    </style>
+
+    <style name="TextView.Regular.Red">
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+
+    <style name="TextView.Regular.colorLightYellow">
+        <item name="android:textColor">@color/colorLightYellow</item>
+    </style>
+
+    <style name="TextView.Regular.Grey">
+        <item name="android:textColor">@color/colorGrey</item>
+    </style>
+    <!--    TextView Colors-->
+    <style name="StyleButton" parent="Widget.AppCompat.Button">
+        <item name="background">@drawable/bg_rounded_yellow</item>
+    </style>
+
+    <style name="StyleButton.Bold">
+        <item name="fontFamily">@font/be_vietnam_bold</item>
+    </style>
+
+    <style name="StyleButton.Bold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleButton.Bold.Yellow">
+        <item name="android:textColor">@color/colorSelectedDot</item>
+    </style>
+
+    <style name="StyleButton.Bold.colorMateBlack">
+        <item name="android:textColor">@color/colorMateBlack</item>
+    </style>
+
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">WifiSmartConfig</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="message_permission">APP require Location permission to get Wi-Fi information. \nClick to request permission</string>
+    <string name="message_location">Please turn on GPS to get Wi-Fi information.</string>
+    <string name="message_wifi_connection">Please connect Wi-Fi first.</string>
+    <string name="message_wifi_frequency">Current Wi-Fi connection is 5G, but the device just support 2.4G.</string>
+    <string name="wifi_5g_message">Device don\'t support 5G Wi-Fi, please make sure the currently connected Wi-Fi is 2.4G, or you can try multicast</string>
+    <string name="configure_wifi_change_message">Wi-Fi disconnected or changed</string>
+    <string name="ssid_title">SSID: </string>
+    <string name="bssid_title">BSSID: </string>
+    <string name="password_title">Password: </string>
+    <string name="device_count_title">Device count: </string>
+    <string name="package_broadcast">Broadcast</string>
+    <string name="package_multicast">Multicast</string>
+    <string name="confirm">Confirm</string>
+    <string name="configure_result_failed">Connection failed</string>
+    <string name="configure_result_failed_port">Create Connection task failed, the Connection port could be used by other thread</string>
+    <string name="configure_result_success">Connected Successfully</string>
+    <string name="configure_result_success_item">BSSID = %1$s, InetAddress = %2$s</string>
+    <string name="lbl_enter_password">Enter Router Password</string>
+
+</resources>
