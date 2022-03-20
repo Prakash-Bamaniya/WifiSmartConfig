@@ -16,12 +16,7 @@ android {
 
     }
     signingConfigs {
-        release {
-            storeFile file('D:\\ClientProject\\WifiSmartConfig\\keystore.jks')
-            storePassword 'SmartConfig@123'
-            keyAlias 'WifiSmartConfig'
-            keyPassword 'SmartConfig@123'
-        }
+       
     }
     buildTypes {
         release {
